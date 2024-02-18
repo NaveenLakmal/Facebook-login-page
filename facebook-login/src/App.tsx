@@ -7,10 +7,12 @@ function App() {
 
 
   return (
-      <>
-      <Login/>
-      <div>hello</div>
-      </>
+      <div className="main">
+        <Login/>
+      </div>
+      
+      
+     
   )
 }
 
