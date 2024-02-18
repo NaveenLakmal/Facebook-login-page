@@ -1,11 +1,16 @@
+import Login from "./page/Login"
+
+
+
 
 function App() {
-  
+
 
   return (
-    <>
-      hello word 
-    </>
+      <>
+      <Login/>
+      <div>hello</div>
+      </>
   )
 }
 
