@@ -19,16 +19,18 @@ function Login() {
                 <div className='col-lg-6'>
 
                     <div className='login-box'>
-                        <div className="inputField"><br/>
-                            <input type="text" className="form-control" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping" />
-                            <input type="text" className="form-control" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping" />
-                            <button type="button" className="btn btn-primary">Log in</button> <br />
+                        <div className="inputField"><br />
+                            <input type="text" className="form-control" placeholder="Email address or Username" aria-label="Username" aria-describedby="addon-wrapping" /><br />
+                            <input type="text" className="form-control" placeholder="Password" aria-label="Username" aria-describedby="addon-wrapping" />
+                            <button type="button" className="btn btn-primary">Log in</button> <br /><br />
                             <a href="">Forget Password?</a>
                             <hr className='hr' />
                             <button type="button" className="btn btn-success">Create new account</button> <br />
                         </div>
+                    </div>
 
-
+                    <div className='login-box-under-p'>
+                        <a id="h" href="">Create a Page</a> for a celebrity, brand or business.
                     </div>
 
 

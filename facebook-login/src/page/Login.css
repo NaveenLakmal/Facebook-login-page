@@ -6,7 +6,7 @@
 }
 
 .pragraph{
-    font-size: 24px;
+    font-size: 30px;
     line-height: 28px;
     width: auto;
     margin-left: 5%;
@@ -19,14 +19,18 @@
 
 .login-box{
     margin-top: 30%;
-    background-color: aliceblue;
+    margin-right: 15%;
+    margin-left: 15%;
+    background-color: #fff;
     border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
 }
 
 .inputField{
     
     margin-left: 10%;
     margin-right: 10%;
+    
 }
 
 .btn-primary{
@@ -38,7 +42,9 @@
 }
 
 .login-box a{
+    height: 60%;
     margin-left: 35%;
+    
 }
 
 .hr{
@@ -53,6 +59,26 @@
     margin-left: 10%;
     width: 50%;
     margin-left: 25%;
+    margin-bottom: 8%;
     
    
+}
+
+.login-box-under-p{
+    margin-top: 5%;
+    margin-left: 20%;
+}
+
+.login-box-under-p > a{
+    color: black;
+    margin-left: 5%;
+}
+ #h:active hover{
+    text-decoration: none;
+
+}
+
+
+#h{
+    text-decoration: none;
 }
